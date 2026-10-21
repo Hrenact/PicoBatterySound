@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.pico.batterysound'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.pico.batterysound'
+        minSdk 26
+        targetSdk 36
+        versionCode 10
+        versionName '0.7.0'
+        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
